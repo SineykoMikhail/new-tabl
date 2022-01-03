@@ -10,7 +10,6 @@ th {
 }
 table {
   border-collapse: collapse;
-  
 }
 thead {
   color: white;
@@ -21,19 +20,36 @@ button {
 }
 
 thead th:nth-child(1) {
-  background-color: rgb(75, 75, 255);
+  background-color: rgb(120, 135, 171);
 }
 thead th:nth-child(2) {
-  background-color: rgb(57, 57, 202);
+  background-color: rgb(79, 98, 142);
 }
 thead th:nth-child(3) {
-  background-color: rgb(27, 27, 131);
+  background-color: rgb(46, 65, 114);
 }
 thead th:nth-child(4) {
-  background-color: rgb(23, 23, 128);
+  background-color: rgb(22, 41, 85);
 }
 thead th:nth-child(5) {
-  background-color: rgb(22, 0, 119);
+  background-color: rgb(6, 21, 57);
 }
-tbody>tr:nth-child(2n+1)>th,tbody>tr:nth-child(2n+1)>td  {background-color:grey;} 
-tbody>tr:nth-child(2n)>th,tbody>tr:nth-child(2n)>td  {background-color:rgb(165, 165, 165);} 
+p+p {font-family: arabic;
+font-size: 20px;}
+
+tbody > tr:nth-child(odd) > td:nth-child(odd) {
+  background-color: rgb(219, 219, 219);
+}
+
+tbody > tr:nth-child(even) > td:nth-child(odd) {
+  background-color: rgb(231, 231, 231);
+}
+tbody > tr:nth-child(odd) > td:nth-child(even) {
+  background-color: rgb(231, 231, 231);
+}
+tfoot td:nth-child(odd) {
+  background-color: rgb(219, 219, 219);
+}
+tfoot td:nth-child(even) {
+  background-color: rgb(231, 231, 231);
+}
