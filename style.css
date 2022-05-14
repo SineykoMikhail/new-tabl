@@ -38,14 +38,14 @@ p+p {font-family: arabic;
 font-size: 20px;}
 
 tbody > tr:nth-child(odd) > td:nth-child(odd) {
-  background-color: rgb(219, 219, 219);
+  background-color: darkturquoise;
 }
 
 tbody > tr:nth-child(even) > td:nth-child(odd) {
-  background-color: rgb(231, 231, 231);
+  background-color: paleturquoise;
 }
 tbody > tr:nth-child(odd) > td:nth-child(even) {
-  background-color: rgb(231, 231, 231);
+  background-color: paleturquoise;
 }
 tfoot td:nth-child(odd) {
   background-color: rgb(219, 219, 219);
